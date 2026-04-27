@@ -175,7 +175,7 @@ Implemented using GitHub Actions:
 
 Deployed using Render with automatic deployment on push.
 
-🔗 Live URL: *(add your deployed link here)*
+🔗 Live URL: *(https://url-shortener-9yxn.onrender.com)*
 
 ---
 

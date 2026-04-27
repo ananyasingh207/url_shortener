@@ -12,17 +12,16 @@ app.get('/', (req, res) => {
   res.send('API is running');
 });
 
-// URL routes
-app.use('/', urlRoutes);
-
-
-//Test route for CD
+// Test route for CD
 app.get("/test-cd", (req, res) => {
   res.json({
     message: "CD working ",
     timestamp: new Date()
   });
 });
+
+// URL routes
+app.use('/', urlRoutes);
 
 // Start server
 app.listen(PORT, () => {

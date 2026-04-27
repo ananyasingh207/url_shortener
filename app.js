@@ -15,6 +15,15 @@ app.get('/', (req, res) => {
 // URL routes
 app.use('/', urlRoutes);
 
+
+//Test route for CD
+app.get("/test-cd", (req, res) => {
+  res.json({
+    message: "CD working ",
+    timestamp: new Date()
+  });
+});
+
 // Start server
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
